@@ -1,0 +1,1109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/* ################# header1 ###############3 */
+
+.head1{
+    background-color: #f5f5f5;
+    padding: 10px 0;
+    font-size: 13px;
+    font-weight: 400;
+    
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+    color: #222;
+}
+.header1 .navbar{
+display: flex;
+gap: 20px;
+
+}
+
+.header1 .navbar a{
+    text-decoration: none;
+    color: #222;
+}
+
+.header1 .login a{
+    text-decoration: none;
+    color: #222;
+}
+
+/* ############## Header2  ############### */
+
+.header2{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    /* margin: 20px 0 0 70px ; */
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+}
+.header2 .image{
+    margin-left: 40px;
+}
+    
+.header2 a{
+    text-decoration: none;
+    color: #222;
+}
+.header2 a:hover{
+    color: rgb(86, 86, 216);
+}
+.form{
+    border: 2px solid #e7e7e7;
+    /* margin-left: 150px; */
+    /* width: 250px; */
+    transition: width .2s ease-in-out;
+    /* transform-origin:left; */
+    
+    
+}
+/* .form:hover{
+    width: 300px;
+    display: block;
+} */
+
+.form input {
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-align: left;
+    padding: 10px;
+    color: #222;
+    transition: all .5s ease-in-out;
+}
+ 
+.form input:focus-visible{
+    padding-right: 50px;
+}
+
+
+.form p{
+    display: inline-block;
+    padding: 5px;
+    font-size: 20px;
+    color: #222;
+}
+.form i{
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 900;
+}
+
+
+
+
+/* ################ girlphoto ########### */
+
+.header{
+    background-image:url("https://wallpapercave.com/wp/wp6813197.jpg");
+    width: 100%;
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-position-y: -25000%;
+    background-size: cover;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+/* .girlphoto{
+    background-image:url("https://wallpapercave.com/wp/wp6813197.jpg");
+    width: 100%;
+    height: 120vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position-y: -25000%;
+    background-size: cover;
+    object-fit: cover;
+    top: -90px;
+    overflow: hidden;
+    /* animation: change 5s infinite ease-in-out; */
+    /* transition:5s;
+
+
+    animation-name:animation ;
+    animation-direction:alternate-reverse ;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state:running ;
+    animation-timing-function: ease-in-out; */
+/* } */ 
+
+
+/* @keyframes animation{
+    0%{
+        background-image: url("https://c4.wallpaperflare.com/wallpaper/782/468/993/aoi-ogata-black-hair-asian-women-wallpaper-preview.jpg");
+    }
+    20%{
+        background-image: url("https://c4.wallpaperflare.com/wallpaper/782/468/993/aoi-ogata-black-hair-asian-women-wallpaper-preview.jpg");
+    }
+    40%{
+        background-image: url("https://www.shutterstock.com/shutterstock/videos/1101772247/thumb/1.jpg?ip=x480");
+    }
+    60%{
+        background-image: url("https://c4.wallpaperflare.com/wallpaper/328/504/1005/anime-anime-girls-original-characters-brunette-long-hair-hd-wallpaper-preview.jpg");
+    }
+    80%{
+        background-image: url("https://img.freepik.com/premium-photo/captivating-studio-portrait-young-blonde-woman-showcases-her-unique-style-ai-photo_1192063-31712.jpg");
+    }
+    100%{
+        background-image: url("https://img.freepik.com/premium-photo/funny-teenager-girl-red-glasses-handdrawn_955834-74661.jpg");
+    }
+} */
+
+/* @keyframes change{
+    0%{
+        background-image: url("https://wallpapercave.com/wp/wp6813197.jpg");
+    }
+    20%{
+        background-image: url("back01.jpg");
+    }
+
+    40%{
+        background-image: url("back02.jpg");
+    }
+    60%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHOaQB0d7B8uMkn0WU9Rh1DR0RYt_pG355uA&s");
+    }
+    80%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIFp93KU8jftVHIydl0NN6y2fDIKx4la97AA&s");
+    }
+    100%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE-6nwttq0yY-_4_ffypmlam2Jeko1WY1IrQ&s");
+    }
+} */
+
+.content-bda{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+       
+}
+
+.content{
+    position: absolute;
+    top: 190px;
+    max-width: 500px;
+    /* float: right; */
+    
+}
+
+.content-pra1{
+    background-color: rgb(219, 51, 51);
+    display: inline-block;
+    padding: 10px;
+    color: white;
+
+}
+.content-pra2{
+    font-weight: bold;
+}
+.content h1{
+    font-size: 70px;
+    margin: 20px 0;
+    font-weight: 800;
+}
+
+.content-pra3{
+    color: rgb(95, 91, 91);
+    font-weight: 700;
+}
+ 
+.content a{
+    text-decoration: none;
+    color: #222;
+    border: 1px solid black     ;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.dophoto{
+    display: flex;
+    gap: 40px;
+    margin: 100px 0 0 110px;
+    cursor: pointer;
+}
+
+/* #################  company ################## */
+
+.company{
+    display: flex;
+    justify-content: space-between;
+     max-width: 1130px;
+    margin: 50px 0 0 100px; 
+    cursor: pointer;
+}
+
+.heading{
+    font-size: 18px;
+    text-align: center;
+    margin: 50px 0 0 480px;
+    border-bottom: 2px solid black;
+    display: inline-block;
+}
+
+/* ##############33 glasses ################ */
+.glasses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1130px;
+    margin: 50px 0 0 100px; 
+   
+}
+.glasses1{
+    width: 250px;
+    height: 320px;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 2px 2px 5px #222;   
+}
+
+.glasses1:hover{
+    transform: scale(1.01);
+}
+.glasses1 p{
+    padding: 10px 0;
+    font-size: 14px;
+}
+.glasses .glasses1{
+    border: 1px solid #e7e7e7;
+}
+.glasses1 a img{
+    width: 200px;
+    height: 200px;
+
+}
+.rupeeses{
+    padding-top: 10px;
+}
+.rupees{
+    color: #eb3030;
+    font-weight: 500;
+    opacity: .6;
+    padding-right: 5px;
+}
+.rupees2{
+    color: #eb3030;
+    font-weight: bold;
+}
+
+/* ###############3 big photo ################## */
+
+.bigphoto{
+    background-color: rgb(156, 216, 236);
+    width: 100%;
+    height: 550px;
+    margin-top: 50px;
+    position: relative;
+    
+}
+
+.bigphoto-bigheading{
+    /* color: #e7e7e7; */
+    font-size: 200px;
+    position: absolute;
+    left: 80px;
+    top: 130px;
+    opacity: .1;
+}
+
+.bigphoto-smallheading{
+    position: absolute;
+    max-width: 450px;
+    top: 160px;
+    left: 230px;
+    font-size: 30px;
+    color: #222;
+}
+
+.rupees-bigphoto{
+    color:#eb3030 ;
+    position:absolute;
+    top: 250px;
+    left: 230px;
+    font-size: 25px;
+}
+.rupees2-bigphoto{
+    color:#eb3030 ;
+    position:absolute;
+    top: 250px;
+    left: 330px;
+    font-size: 25px;
+    opacity: .5;
+}
+
+.bigphoto-button{
+    color: white;
+    font-size: 25px;
+    background-color: #eb3030;
+    padding: 12px;
+    position: absolute;
+    top: 300px;
+    left: 230px;
+    transition: all .5s ease-in-out;
+    border-radius: 20px;
+}
+
+.girl-photo{
+    position: relative;
+    top: 50px;
+    left: 800px;
+}
+.girl-photo:hover{
+    transform: scale(1.01);
+}
+
+/* ############## mini header ############## */
+
+.mini-header{
+    /* border: 2px solid red; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px #222;
+    margin-left: 180px;
+}
+.car{
+    padding-left: 20px;
+    display: flex;
+   gap: 15px;
+  
+   /* text-align: center; */
+}
+.car-line{
+    border-left: .5px solid gray;
+    /* text-align: center; */
+    
+}
+.car i{
+    font-size: 30px;
+    color: #eb3030;
+}
+.car .mini-content .mini-h3{
+    color: #222;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.car .mini-content .mini-p{
+    color:gray;
+    font-size: 14px;
+
+}
+
+/* .car p{
+    font-size: 80px;
+    padding: 0px;
+} */
+
+
+/* ############# glass ########### */
+
+.glass{
+    display: flex;
+    /* justify-content: space-around; */
+    justify-items: auto;
+    /* justify-content: auto; */
+    gap: 100px;
+}
+
+
+.glass .big-glass{
+    background-color: rgb(241, 241, 241);
+    width: 550px;
+    height: 650px;
+    position: relative;
+    top: 70px;
+    cursor: pointer;
+    z-index: 2;
+    left: 50px;
+}
+
+.glass .big-glass .a-tag{
+    padding: 60px 0 0 300px;
+
+}
+
+.glass .big-glass .a-tag .smallatag{
+    padding-left: 70px;
+}
+.glass .big-glass .a-tag .smallatag .small-a{
+    text-decoration: none;
+    color: #eb3030;
+    font-weight: bold;
+    cursor: pointer;
+   
+}
+
+.glass .big-glass .a-tag .smallatag .small-a:hover{
+    color: rgb(92, 91, 91);
+
+}
+
+.glass .big-glass .a-tag2 .big-a{
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.glass .big-glass .a-tag .a-tag2 .big-a:hover{
+    color: blue;
+}
+
+
+.glass .big-glass .bda-gola .gola {
+    color: white;
+    background-color: #eb3030;
+    display: inline-block;
+    padding: 40px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 170px;
+    left: 70px;
+}
+
+.glass .big-glass .biger-glass{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.glass .big-glass .biger-glass img{
+    position:absolute;
+    top: 20px;
+    left: 150px;
+    height: 400px;
+    width: 400px;
+    z-index: 1;
+    transition: all .5s ease-in-out;
+}
+
+.glass .big-glass .biger-glass img:hover{
+    transform: scale(1.1);
+}
+
+/* ############## big 1 ########### */
+
+
+.big-glass2 {
+    background-color: rgb(241, 241, 241);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 70px;
+    cursor: pointer;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 40px; */
+    flex-wrap: wrap;
+    
+  
+}
+
+
+.big-glass2 .small-glass1 .photo img{
+    /* width: 200px; */
+    /* height: auto; */
+    position:absolute;
+    top: 30px;
+    left: 80px;
+    height: 180px;
+    width: 180px;
+    z-index: 1;
+    transition: all .5s ease-in-out;
+    overflow: hidder;
+    
+}
+
+
+.big-glass2 .small-glass1 .photo img:hover{
+    transform: scale(1.2);
+}
+
+.big-glass2 .small-glass1 .smalltag1 a{
+    text-decoration: none;
+    color: #eb3030;
+    font-weight: bold;
+    font-size: 14px;
+    /* padding: 50px 0 0 0; */
+}
+
+.big-glass2 .small-glass1 .smalltag1 a:hover{
+    color:rgb(92, 91, 91) ;
+}
+
+.big-glass2 .small-glass1 .smalltag1{
+    margin: 50px 0 0 90px;
+    
+}
+
+.big-glass2 .small-glass1 {
+    margin-bottom: 10px;
+    position: relative;
+    background-color: rgb(241, 241, 241);
+    width: 300px;
+   height: 320px;
+}
+
+.big-glass2 .small-glass1 .a-tag3 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+    position: absolute;
+    left: 70px;
+    /* text-align: center; */
+}
+
+.big-glass2 .small-glass1 .a-tag3 a:hover{
+    color: blue;
+}
+.big-glass2 .small-glass1 .photo{
+    width: 90%;
+    height: 65%;
+    position: relative;
+    overflow: hidden;
+    top: 30px;
+
+}
+
+
+
+/* ##########3 big 2 ######## */
+.big-glass2 .small-glass2 .photo img{
+    width: 200px;
+    height: auto;
+    position:absolute;
+    top: 30px;
+    left: 70px;
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    transition: all .5s ease-in-out;
+    
+}
+
+
+.big-glass2 .small-glass2 .photo img:hover{
+    transform: scale(1.2);
+}
+
+.big-glass2 .small-glass2 .smalltag1 a{
+    text-decoration: none;
+    color: #eb3030;
+    font-weight: bold;
+    font-size: 14px;
+   margin-left: 220px;
+}
+
+.big-glass2 .small-glass2 .smalltag1 a:hover{
+    color:rgb(92, 91, 91)  ;
+}
+
+.big-glass2 .small-glass2 .smalltag1{
+    margin: 50px 0 0 0px;
+}
+
+.big-glass2 .small-glass2 {
+    margin-bottom: 10px;
+    position: relative;
+    background-color: rgb(241, 241, 241);
+    width: 300px;
+   height: 300px;
+}
+
+.big-glass2 .small-glass2 .a-tag3 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+    position: absolute;
+    left: 95px;
+    /* text-align: center; */
+}
+
+.big-glass2 .small-glass2 .a-tag3 a:hover{
+    color: blue;
+}
+
+.big-glass2 .small-glass2 .photo{
+    width: 90%;
+    height: 65%;
+    position: relative;
+    overflow: hidden;
+    top:30px;
+
+}
+
+/* ############## big 3 ##########33 */
+.big-glass2 .small-glass3 .photo img{
+    width: 200px;
+    height: auto;
+    position:absolute;
+    top: 10px;
+    left: 70px;
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    transition: all .5s ease-in-out;
+    
+}
+
+
+.big-glass2 .small-glass3 .photo img:hover{
+    transform: scale(1.2);
+}
+
+.big-glass2 .small-glass3 .smalltag1 a{
+    text-decoration: none;
+    color: #eb3030;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 110px;
+}
+
+.big-glass2 .small-glass3 .smalltag1 a:hover{
+    color: rgb(92, 91, 91);
+}
+
+.big-glass2 .small-glass3 .smalltag1{
+    margin:50px 0 0 80px;
+}
+
+.big-glass2 .small-glass3 {
+    margin-bottom: 10px;
+    position: relative;
+    background-color: rgb(241, 241, 241);
+    width: 300px;
+   height: 300px;
+}
+
+.big-glass2 .small-glass3 .a-tag3 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+    position: absolute;
+    left: 85px;
+    /* text-align: center; */
+}
+
+.big-glass2 .small-glass3 .a-tag3 a:hover{
+    color: blue;
+}
+
+.big-glass2 .small-glass3 .photo{
+    width: 90%;
+    height: 65%;
+    position: relative;
+    overflow: hidden;
+    top: 30px;
+
+}
+
+/* ############### big 4 ############# */
+
+.big-glass2 .small-glass4 .photo img{
+    width: 200px;
+    height: auto;
+    position:absolute;
+    top: 30px;
+    left: 70px;
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    transition: all .5s ease-in-out;
+    
+}
+
+
+.big-glass2 .small-glass4 .photo img:hover{
+    transform: scale(1.2);
+}
+
+.big-glass2 .small-glass4 .smalltag1 a{
+    text-decoration: none;
+    color: #eb3030;
+    font-weight: bold;
+    font-size: 14px;
+    /* margin-left: 0px; */
+}
+
+.big-glass2 .small-glass4 .smalltag1 a:hover{
+    color: rgb(92, 91, 91);
+}
+
+.big-glass2 .small-glass4 .smalltag1{
+    margin:50px 0 0 150px;
+}
+
+.big-glass2 .small-glass4 {
+    margin-bottom: 10px;
+    position: relative;
+    background-color: rgb(241, 241, 241);
+    width: 300px;
+   height: 300px;
+}
+
+.big-glass2 .small-glass4 .a-tag3 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+    position: absolute;
+    left: 140px;
+    
+    /* text-align: center; */
+}
+
+.big-glass2 .small-glass4 .a-tag3 a:hover{
+    color: blue;
+}
+
+.big-glass2 .small-glass4 .photo{
+    width: 90%;
+    height: 65%;
+    position: relative;
+    overflow: hidden;
+    top: 20px;
+
+}
+
+
+/* ############## style of 2 photo ##########33 */
+
+.big-glass2 .secondphoto1,
+.big-glass2 .secondphoto2{
+    display: flex;
+    gap: 50px;
+}
+
+.big-glass2 .secondphoto1{
+    margin-bottom: 20px;
+}
+
+
+
+/* ###############33 girls ########33 */
+
+.girls{
+    background-color: rgb(241, 241, 241);
+    position: relative;
+    top: 200px;
+    height: 700px;
+    width: auto;
+}
+
+.girls-content{
+    max-width: 1200px;
+    margin-left: 70px;
+}
+.girls-heading{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.girls .girls-content .girl-headingatag a{
+    text-decoration: none;
+    color: #eb3030;
+}
+
+.three-girls{
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    position:absolute;
+    bottom: 100px;
+}
+.girl-container1{
+    background-color: white;
+    display: inline-block;
+    /* padding: 20px; */
+}
+
+.girl-container1:hover{
+    box-shadow: 5px 5px 10px #22222223,
+    -5px -5px 10px #22222223;
+}
+.girl-container1 .girl-container-image img{
+    width: 350px;
+    height: auto;
+}
+
+.girl-container1 .girl-container-content{
+    max-width: 300px;
+    padding: 20px 0 0 30px;
+}
+
+.girl-container1 .girl-container-content a{
+    text-decoration: none;
+}
+
+.girl-container1 .girl-container-content .girl-container-a1{
+    color: blue;
+    /* padding: 0px 0 0 20px; */
+}
+
+.girl-container1 .girl-container-content .girl-container-a2{
+    color:#222;
+    font-size: 30px;
+}
+
+.girl-container1 .girl-container-content .girl-container-a2:hover{
+    color: #eb3030;
+}
+
+.girl-container1 .girl-container-content .p-content p{
+    display: inline-block;
+    margin: 20px 0 20px 0;
+    font-size: 13px;
+    color: #222;
+}
+
+
+/* ###########3 5 logo ############## */
+.five-logo{
+    background-color: white;
+    position:relative;
+    top: 200px;
+    height: 300px;
+    border: .3px solid rgba(128, 128, 128, 0.24);
+    box-shadow: 2px 2px 2px rgb(36, 34, 34);
+    /* display: flex;
+    justify-content: space-around; */
+    /* text-align: center; */
+    /* align-items: center; */
+    
+}
+
+.five-logo .logos{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+    margin: 100px 0 0 70px;
+
+}
+
+.five-logo .logos .first-logo{
+    opacity: .5;
+    transition: all .3s ease-in-out;
+}
+
+.five-logo .logos .first-logo:hover{
+    color: #222;
+    opacity: 1;
+}
+
+
+/* ##############3 search bar ################# */
+
+.search-bar{
+    background-color: #2ed3bd; 
+    position: relative;
+    top: 200px;
+    height: 300px;
+    width: auto;
+}
+
+.search-bar .search-bar-content-form{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+   
+}
+
+
+.search-bar .search-bar-content-form .search-bar-content{
+    color: #fff;
+}
+
+
+.search-bar .search-bar-content-form .search-bar-content .search-bar-heading{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.search-bar .search-bar-content-form .search-bar-form input{
+    /* font-size: 35px; */
+    height: 50px;
+    width: 300px;
+    padding-left: 20px;
+}
+
+
+
+.search-bar .search-bar-content-form .search-bar-form .search-bar-button{
+    font-size: 15px;
+    padding: 13px;
+    margin: 0px;
+    background-color: #333e48;
+    border: 1pxsolid #333e48;
+    border-width: 2px;
+    border-radius: 2px;
+    color: #fff;
+}
+
+
+
+/* ################ footer 1 ########## */
+
+.footer1{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 300px;
+    /* border: 1px solid red; */
+    height: 400px;
+}
+
+.footer1 .footer-parts .footer-part2{
+    margin-top: 30px;
+}
+
+.footer1 .footer-parts .footer-part2 .heading-relative{
+    margin-bottom: 10px;
+}
+.footer1 .footer-parts .footer-part2 h2{
+    margin-bottom: 20px;
+}
+
+.footer1 .footer-parts .footer-part2 .footer-part2-button {
+    margin-top: 40px;
+}
+
+
+.footer1 .footer-parts .footer-part2 .heading-relative{
+    color: #22222270;
+    font-size: 25px;
+
+}
+
+.footer1 .footer-parts .footer-part2 p{
+    color: #22222270;
+}
+
+.footer1 .footer-parts .footer-part2 a{
+    text-decoration: none;
+    color: white;
+    background-color: #eb3030;
+    padding: 20px 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: all .3s ease-in-out;
+    /* padding-left: 10px; */
+}
+
+.footer1 .footer-parts .footer-part2 a:hover{
+    background-color: #222222fb;
+}
+
+.footer1 .footer-parts .footer-part2 a i{
+    padding-right: 10px;
+}
+
+
+.footer-parts2 .footer-part1 h1{
+    /* padding-bottom: 100px; */
+    font-size: 20px;
+}
+
+.footer-parts3 .footer-part1 a {
+/* padding-bottom: 10px; */
+    text-decoration: none;
+    color: #22222286;
+
+}
+
+.footer-parts3 .footer-part1 div{
+    padding-top: 10px;
+}
+
+
+.footer-parts4 a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #eb3030;
+    padding: 15px 35px;
+}
+
+
+.footer-parts4 .footer-parts4-box {
+    transform: rotate(270deg);
+    margin-top: 150px;
+}
+
+
+/* ############ footer 2 ############### */
+
+.footer2{
+    background-color: rgb(241, 241, 241);
+    position: relative;
+    top: 250px;
+    height: 200px;
+    padding-top: 50px;
+}
+.footer2 .footer2-p{
+
+    display: flex;
+    justify-content:space-around;
+    /* gap: 100px; */
+    
+}
+
+.footer2 .footer2-p p{
+    padding-top: 40px;
+    color: #22222288;
+}
+
+
+.footer2 .footer2-p ul {
+    list-style: none;
+}
+
+
+.footer2 .footer2-p ul li{
+    padding: 10px 0 0px 0;
+}
+
+
+.footer2 .footer2-p ul li a{
+    text-decoration: none;
+    color: blue;
+    padding-right:  300px ;
+    /* text-transform: uppercase; */
+}
+
+.footer2 .footer2-p ul li a:hover{
+    color: rgb(105, 105, 173);
+}
+
+
+/* ############# media quari ############ */
+
+@media screen and (max-width:768px) {
+    
+}
